@@ -57,6 +57,34 @@ void Error_Handler(void);
 /* USER CODE END EFP */
 
 /* Private defines -----------------------------------------------------------*/
+#define YAN_WU_Pin GPIO_PIN_0
+#define YAN_WU_GPIO_Port GPIOA
+#define DIANLIU_TX_Pin GPIO_PIN_2
+#define DIANLIU_TX_GPIO_Port GPIOA
+#define DIANLIU_RX_Pin GPIO_PIN_3
+#define DIANLIU_RX_GPIO_Port GPIOA
+#define SPI_CLK_Pin GPIO_PIN_5
+#define SPI_CLK_GPIO_Port GPIOA
+#define LCD_MISO_Pin GPIO_PIN_6
+#define LCD_MISO_GPIO_Port GPIOA
+#define LCD_MOSI_Pin GPIO_PIN_7
+#define LCD_MOSI_GPIO_Port GPIOA
+#define DIANYA_TX_Pin GPIO_PIN_10
+#define DIANYA_TX_GPIO_Port GPIOB
+#define DIANYA_RX_Pin GPIO_PIN_11
+#define DIANYA_RX_GPIO_Port GPIOB
+#define WIFI_TX_Pin GPIO_PIN_9
+#define WIFI_TX_GPIO_Port GPIOA
+#define WIFI_RX_Pin GPIO_PIN_10
+#define WIFI_RX_GPIO_Port GPIOA
+#define LCD_DC_Pin GPIO_PIN_6
+#define LCD_DC_GPIO_Port GPIOB
+#define LCD_RST_Pin GPIO_PIN_7
+#define LCD_RST_GPIO_Port GPIOB
+#define LCD_BLK_Pin GPIO_PIN_8
+#define LCD_BLK_GPIO_Port GPIOB
+#define LCD_CS_Pin GPIO_PIN_9
+#define LCD_CS_GPIO_Port GPIOB
 
 /* USER CODE BEGIN Private defines */
 

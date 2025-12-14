@@ -34,17 +34,17 @@ extern "C" {
 
 extern UART_HandleTypeDef huart1;
 
-extern USART_HandleTypeDef husart2;
+extern UART_HandleTypeDef huart2;
 
-extern USART_HandleTypeDef husart3;
+extern UART_HandleTypeDef huart3;
 
 /* USER CODE BEGIN Private defines */
 
 /* USER CODE END Private defines */
 
 void MX_USART1_UART_Init(void);
-void MX_USART2_Init(void);
-void MX_USART3_Init(void);
+void MX_USART2_UART_Init(void);
+void MX_USART3_UART_Init(void);
 
 /* USER CODE BEGIN Prototypes */
 
