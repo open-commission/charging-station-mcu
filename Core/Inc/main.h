@@ -63,12 +63,10 @@ void Error_Handler(void);
 #define DIANLIU_TX_GPIO_Port GPIOA
 #define DIANLIU_RX_Pin GPIO_PIN_3
 #define DIANLIU_RX_GPIO_Port GPIOA
-#define SPI_CLK_Pin GPIO_PIN_5
-#define SPI_CLK_GPIO_Port GPIOA
-#define LCD_MISO_Pin GPIO_PIN_6
-#define LCD_MISO_GPIO_Port GPIOA
-#define LCD_MOSI_Pin GPIO_PIN_7
-#define LCD_MOSI_GPIO_Port GPIOA
+#define LCD_SCL_Pin GPIO_PIN_5
+#define LCD_SCL_GPIO_Port GPIOA
+#define LCD_SDA_Pin GPIO_PIN_7
+#define LCD_SDA_GPIO_Port GPIOA
 #define DIANYA_TX_Pin GPIO_PIN_10
 #define DIANYA_TX_GPIO_Port GPIOB
 #define DIANYA_RX_Pin GPIO_PIN_11
